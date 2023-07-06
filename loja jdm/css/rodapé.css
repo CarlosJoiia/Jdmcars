@@ -1,0 +1,119 @@
+.about {
+  width: 97vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 10px;
+  color: white;
+}
+
+.about-content {
+  max-width: 1000px;
+  min-width: 300px;
+  height: 600px;
+  background: #ffffff3b;
+  margin: 0 auto;
+  border-radius: 8px;
+  z-index: 10;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foto {
+  width: 25%;
+  min-width: 300px;
+  height: 100%;
+  background: #da000000;
+  border-radius: 8px;
+}
+
+.texto {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Horizon', sans-serif;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 10%;
+}
+
+.texto h3 {
+  color: white;
+  font-family: 'Horizon', sans-serif;
+  text-align: left;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.texto font {
+  font-family: 'Horizon', sans-serif;
+  margin-top: 5%;
+  max-width: 90%;
+  font-size: 1em;
+  letter-spacing: 2px;
+  text-align: right;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+}
+
+
+footer {
+    width: 98.8vw;
+    height: 250px;
+    padding-top: 50px;
+}
+.container-rodap {
+    margin: 0 auto;
+    padding: 10px;
+}
+footer .main {
+    width: 97.4vw;
+    height: 200px;
+    background-color: black;
+    padding: 20px 10px;
+}
+  
+  .footer-links {
+    max-width: 1000px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .footer-empresa,.footer-serviços,.footer-contato, .footer-social {
+    color: white;
+    height: 100%;
+    min-height: 100px;
+  }
+  
+  .footer-links h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links {
+    margin-bottom: 8px;
+  }
+  
+  .main .footer-social img {
+    width: 32px;
+    height: 32px;
+    margin: 7px;
+}
+  
+  footer .credito {
+    width: 98.8vw;
+    height: 50px;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  

@@ -1,0 +1,68 @@
+.container-slider {
+  display: flex;
+  width: 98.8vw;
+  height: 66.2vh;
+  gap: 1rem;
+}
+
+.container-images {
+  position: relative;
+  display: flex;
+  width: 100%;
+  
+}
+
+.container-images img {
+  height: 100%;
+  width: 100%;
+}
+
+
+.slider{
+  opacity: 0;
+  transition: opacity .2s;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.on {
+  opacity: 1;
+}
+
+#voltar-button,#proximo-button {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 1;
+}
+
+#voltar-button img,#proximo-button img {
+  width: 100%;
+  height: 100%;
+}
+
+#voltar-button {
+  margin-top: 15%;
+  left: 10px;
+  transform: translateY(-50%);
+  
+}
+
+#proximo-button {
+  margin-top: 13.9%;
+  right: 50%;
+
+}
+
+#voltar-button :hover {
+  background-color: darkgrey ;
+}
+
+#proximo-button :hover{
+  background-color: darkgrey;
+}
+
+

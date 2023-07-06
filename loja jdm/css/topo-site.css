@@ -1,0 +1,74 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  flex-direction: column;
+  background-color: #454242;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 97vh;
+  width: 98.8vw;
+  position: 0;
+  margin: 0;
+  padding: 0;
+}
+  
+.topo-site {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  width: 98.8vw;
+  height: 22%;
+  background-color: black;
+}
+
+.topo-site a{
+  height: 140%;
+}
+
+#logo {
+  margin-top: -2%;
+  height: 120%;
+  object-fit: contain;
+}
+  
+.menu {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  width: 73vw;
+  height: 30%;
+  margin-top: 108.9px;
+}
+  
+.menu ul {
+  display: flex;
+  align-items: center;
+  margin-left: 12%;
+  padding: 0;
+}
+  
+.menu ul li {
+  display: inline;
+  width: 100px;
+  margin-left: 10px;
+  margin-right: 120px;
+}
+  
+.menu ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  height: 50px;
+}
+  
+.menu ul li a:hover {
+  color: white;
+  background-color: #454242;
+}
